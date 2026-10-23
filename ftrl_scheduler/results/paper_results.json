@@ -1,0 +1,151 @@
+{
+  "clean": {
+    "FT-RLS": {
+      "makespan": 91.12,
+      "tardiness": 2.826,
+      "reward": -46.972
+    },
+    "MLP-noisy": {
+      "makespan": 89.08,
+      "tardiness": 1.279,
+      "reward": -45.18
+    }
+  },
+  "loss_low": {
+    "FT-RLS": {
+      "makespan": 91.97,
+      "tardiness": 2.256,
+      "reward": -47.115
+    },
+    "MLP-noisy": {
+      "makespan": 88.06,
+      "tardiness": 1.633,
+      "reward": -44.849
+    }
+  },
+  "loss_med": {
+    "FT-RLS": {
+      "makespan": 93.82,
+      "tardiness": 3.029,
+      "reward": -48.423
+    },
+    "MLP-noisy": {
+      "makespan": 87.57,
+      "tardiness": 2.926,
+      "reward": -45.25
+    }
+  },
+  "loss_high": {
+    "FT-RLS": {
+      "makespan": 88.0,
+      "tardiness": 1.777,
+      "reward": -44.888
+    },
+    "MLP-noisy": {
+      "makespan": 89.81,
+      "tardiness": 0.892,
+      "reward": -45.351
+    }
+  },
+  "drift_low": {
+    "FT-RLS": {
+      "makespan": 90.75,
+      "tardiness": 2.164,
+      "reward": -46.456
+    },
+    "MLP-noisy": {
+      "makespan": 91.17,
+      "tardiness": 1.639,
+      "reward": -46.405
+    }
+  },
+  "drift_med": {
+    "FT-RLS": {
+      "makespan": 89.65,
+      "tardiness": 2.298,
+      "reward": -45.973
+    },
+    "MLP-noisy": {
+      "makespan": 89.31,
+      "tardiness": 1.458,
+      "reward": -45.383
+    }
+  },
+  "drift_high": {
+    "FT-RLS": {
+      "makespan": 88.53,
+      "tardiness": 1.312,
+      "reward": -44.921
+    },
+    "MLP-noisy": {
+      "makespan": 90.0,
+      "tardiness": 2.012,
+      "reward": -46.007
+    }
+  },
+  "delay_low": {
+    "FT-RLS": {
+      "makespan": 91.38,
+      "tardiness": 1.429,
+      "reward": -46.405
+    },
+    "MLP-noisy": {
+      "makespan": 89.95,
+      "tardiness": 2.351,
+      "reward": -46.151
+    }
+  },
+  "delay_med": {
+    "FT-RLS": {
+      "makespan": 88.31,
+      "tardiness": 1.765,
+      "reward": -45.039
+    },
+    "MLP-noisy": {
+      "makespan": 90.39,
+      "tardiness": 2.28,
+      "reward": -46.334
+    }
+  },
+  "delay_high": {
+    "FT-RLS": {
+      "makespan": 88.37,
+      "tardiness": 1.135,
+      "reward": -44.752
+    },
+    "MLP-noisy": {
+      "makespan": 92.14,
+      "tardiness": 2.796,
+      "reward": -47.47
+    }
+  },
+  "severe": {
+    "FT-RLS": {
+      "makespan": 91.01,
+      "tardiness": 1.916,
+      "reward": -46.462
+    },
+    "MLP-noisy": {
+      "makespan": 89.73,
+      "tardiness": 1.352,
+      "reward": -45.54
+    }
+  },
+  "_reference": {
+    "SPT": {
+      "makespan": 70.04,
+      "tardiness": 0.0
+    },
+    "EDD": {
+      "makespan": 82.47,
+      "tardiness": 0.0
+    }
+  },
+  "_meta": {
+    "source": "values embedded in the PEEIACON gen_figures.py, which produced Figs. 2-6",
+    "seeds": 5,
+    "eval_episodes_per_seed": 20,
+    "training_steps": 500000,
+    "note": "per-condition means over 5 seeds; not raw per-seed data"
+  }
+}
